@@ -10,7 +10,7 @@ public class Beer extends Beverage {
 
     @Override
     public void display() {
-      super.display();
-        System.out.println("alcoholContent" + alcoholContent);
+        super.display();
+        System.out.println("alcoholContent: " + alcoholContent);
     }
 }

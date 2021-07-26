@@ -15,8 +15,10 @@ public class BeverageWarehouse {
     }
 
     public void displayAll() {
-        for (Beverage beverage:beverages) {
+        for (Beverage beverage : beverages) {
+            System.out.println("------------------------");
             beverage.display();
+            System.out.println("------------------------");
         }
     }
 }

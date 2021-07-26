@@ -10,7 +10,7 @@ public class Beverage {
     }
 
     public void display() {
-        System.out.println("capacity" + capacity);
-        System.out.println("ingredients" + ingredients);
+        System.out.println("capacity: " + capacity);
+        System.out.println("ingredients: " + ingredients);
     }
 }
