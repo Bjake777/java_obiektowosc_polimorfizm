@@ -27,13 +27,14 @@ public class BeverageFactoryApp {
                     System.out.println("enter capacity");
                     capacity = scanner.nextDouble();
                     System.out.println("enter ingredients");
+                    scanner.nextLine();
                     ingredients = scanner.nextLine();
 
                     System.out.println("choose a type");
                     System.out.println("sparkling water - press 1");
                     System.out.println("still water - press 2");
-
-                    if (typeDecision == 1){
+                    typeDecision = scanner.nextInt();
+                    if (typeDecision == 1) {
                         type = Type.SPARKLING_WATER;
                     } else {
                         type = Type.STILL_WATER;
@@ -48,6 +49,7 @@ public class BeverageFactoryApp {
                     System.out.println("enter capacity");
                     capacity = scanner.nextDouble();
                     System.out.println("enter ingredients");
+                    scanner.nextLine();
                     ingredients = scanner.nextLine();
                     System.out.println("enter alcohol content");
                     alcoholContent = scanner.nextInt();
